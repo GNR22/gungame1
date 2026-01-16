@@ -1,0 +1,5 @@
+setup: run these on terminal
+Clone repo
+npm install → installs dependencies
+npm run dev → run development server
+npm run build → create production build

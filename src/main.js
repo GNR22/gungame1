@@ -166,7 +166,8 @@ function playShootSound() {
 }
 
 // Load Gun
-gltfLoader.load('/models/gun.glb',
+// CHANGED: Using direct GitHub LFS link to bypass Vercel 100MB limit
+gltfLoader.load('https://media.githubusercontent.com/media/GNR22/gungame/main/public/models/gun.glb',
     (gltf) => {
         gun = gltf.scene;
         const box = new THREE.Box3().setFromObject(gun);
@@ -185,6 +186,7 @@ gltfLoader.load('/models/gun.glb',
     undefined,
     (err) => {
         console.error('Gun load error:', err);
+        // Fallback box (This will show up if you run out of GitHub bandwidth)
         const geometry = new THREE.BoxGeometry(0.3, 0.1, 0.5);
         const material = new THREE.MeshStandardMaterial({ color: 0x666666 });
         gun = new THREE.Mesh(geometry, material);
