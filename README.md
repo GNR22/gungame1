@@ -128,5 +128,5 @@ Check the console for failed network requests and verify files under public.
 ---
 
 ## Vercel Live link problems
-gun.glb is not loading
+gun.glb is not loading although locally the gun loads succesfully 
 
