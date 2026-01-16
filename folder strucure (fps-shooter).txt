@@ -1,0 +1,27 @@
+fps-shooter/
+├── node_modules/
+├── public/
+│   ├── models/
+│   │   └── gun.glb
+│   ├── sounds/
+│   │   └── glocksound.mp3
+│   ├── textures/
+│   │   └── envMaps/
+│   │       └── skyinvasion.jpg
+│   └── fonts/
+│       └── (your font files)
+├── src/
+│   ├── main.js
+│   ├── components/
+│   │   └── Target.js
+│   └── levels/
+│       ├── beginner.js
+│       ├── intermediate.js
+│       └── professional.js
+├── package.json
+├── vite.config.js
+└── pages
+    ├── index.html
+
+
+
