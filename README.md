@@ -127,3 +127,6 @@ Check the console for failed network requests and verify files under public.
 
 ---
 
+## Vercel Live link problems
+gun.glb is not loading
+
